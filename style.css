@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+ }
+
+ body {
+   position: relative;
+   padding: 0px;
+   width: 60%;
+   margin: auto;
+   font-size: 17px;
+   font-family: 'Open Sans', sans-serif;
+   background-color: rgb(27, 24, 39);#222429;
+   color: ghostwhite;
+   line-height: 24px;
+ }
+
+ h1 {
+   padding: 35px 0px 15px 0px;
+   border-bottom: 1px solid deepPink;
+   margin-bottom: 12px;
+   color: deepskyblue;
+ }
+
+ #cell, #email {
+   margin: 5px 0px;
+ }
+
+ #cell span {
+   color: deepskyblue;
+ }
+
+a {
+  color: deepskyblue;
+  text-decoration: none;
+  border-bottom: 1px dotted deepskyblue;
+}
+
+a:hover {
+  color: mediumspringgreen;
+  border-bottom: 1px solid mediumspringgreen;
+}
+
+ #intro {
+   margin-top: 20px;
+   font-style: italic;
+   width: 65%;
+ }
+
+#profile-img {
+  display: inline-block;
+  z-index: 1;
+  width: 137px;
+  height: 250px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: content-box;
+  border: 7px solid white;
+  background-color: white;
+  -ms-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.7), 0 6px 25px 0 rgba(0, 0, 0, 0.7);
+}
+
+ section {
+   margin-top: 40px;
+ }
+
+ .item-container {
+   width: 100%;
+   height: 145px;
+   margin-bottom: 15px;
+ }
+
+ .item-header {
+   display: inline-block;
+   width: 25%;
+   border-right: 1px solid deepPink;
+   padding-right: 25px;
+   height: 80%;
+   float: left;
+   color: deepskyblue;
+ }
+
+.item-header span {
+  float: right;
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
+}
+
+ .item-content {
+   display: inline-block;
+   width: 75%;
+   height: 80%;
+   float: right;
+   padding-left: 25px;
+ }
+
+ .item-content h3, .item-content li {
+   margin-bottom: 5px;
+ }
+
+ .heading {
+   color: mediumspringgreen;
+ }
+
+ .highlight {
+   color: #d082f7;
+ }
